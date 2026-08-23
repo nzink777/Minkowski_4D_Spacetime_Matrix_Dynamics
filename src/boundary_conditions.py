@@ -1,7 +1,7 @@
 import numpy as np
 
 def dynamic_kappa(r: float, kappa_m4: float, phi_7d: float, sigma_scatter: float, epsilon: float = 1e-5) -> float:
-    """
+    r"""
     Calculates the fluid boundary condition for the topological coupling constant.
     
     Args:
@@ -18,10 +18,10 @@ def dynamic_kappa(r: float, kappa_m4: float, phi_7d: float, sigma_scatter: float
     return kappa_m4 + stress_decay
 
 def calculate_velocity_dispersion(lambda_center: float, delta_lambda: float) -> float:
-    """
+    r"""
     Extracts the velocity dispersion from the FWHM of a spectral peak.
     Uses the Doppler broadening formula: \Delta v = c * (\Delta \lambda / \lambda)
     """
     c_microns_per_sec = 2.9979e14 # Speed of light in microns/second
     return c_microns_per_sec * (delta_lambda / lambda_center)
-  
+    
