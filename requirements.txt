@@ -1,0 +1,14 @@
+# Core Matrix & Math Operations
+numpy>=1.24.0
+scipy>=1.10.0
+
+# FDTD Simulation Engine
+pymeep>=1.27.0
+h5py>=3.8.0
+
+# Data Visualization (For mapping JWST spectra)
+matplotlib>=3.7.0
+
+# Continuous Integration & Stress Testing
+pytest>=7.3.0
+pytest-benchmark>=4.0.0
