@@ -29,7 +29,7 @@ def calculate_voxel_swap(V_A: np.ndarray, theta: float, a_index: int) -> np.ndar
     Returns:
         V_B: The resulting voxel state matrix after the continuous symmetry swap.
     """
-generators = get_gell_mann_matrices()
+    generators = get_gell_mann_matrices()
     if not (0 <= a_index < len(generators)):
         raise ValueError("Generator index must be between 0 and 7 for SU(3).")
     
@@ -38,3 +38,4 @@ generators = get_gell_mann_matrices()
     operator_matrix = expm(1j * theta * T_a)
     V_B = np.dot(operator_matrix, V_A)
     return V_B
+    
