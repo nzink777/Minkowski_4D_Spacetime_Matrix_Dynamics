@@ -1,4 +1,4 @@
-import meep as mp
+# import meep as mp
 import numpy as np
 from boundary_conditions import dynamic_kappa
 
