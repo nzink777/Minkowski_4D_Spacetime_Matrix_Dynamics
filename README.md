@@ -1,4 +1,5 @@
 https://github.com/nzink777/Minkowski_4D_Spacetime_Matrix_Dynamics
+[![Matrix Stress Test](https://github.com/nzink777/Minkowski_4D_Spacetime_Matrix_Dynamics/actions/workflows/stress_test.yml/badge.svg)](https://github.com/nzink777/Minkowski_4D_Spacetime_Matrix_Dynamics/actions/workflows/stress_test.yml)
 # Minkowski_4D_Spacetime_Matrix_Dynamics
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22073156.svg)](https://doi.org/10.5281/zenodo.22073156)
