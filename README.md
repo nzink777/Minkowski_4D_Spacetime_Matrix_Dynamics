@@ -25,3 +25,9 @@ This repository utilizes Finite-Difference Time-Domain (FDTD) simulations to map
 * **Field Simulation:** PyMeep models the step-by-step localized dissipation of electromagnetic fields under varying $\kappa$ values.
 * **Validation:** Automated continuous integration pipelines will stress-test the topological matrices against localized singularity failures.
 * 
+Python requirements.txt
+Breakdown of the Stack:
+numpy & scipy: The foundation for calculating the Lie algebra generators and processing the T^7 voxel coordinate swaps.
+pymeep & h5py: PyMeep will handle the actual Finite-Difference Time-Domain (FDTD) wave propagation, while h5py manages the large hierarchical data outputs from the simulations.
+matplotlib: Essential for plotting our calculated \kappa(r) dynamic boundary curve against the visual baseline of the JWST charts.
+pytest & pytest-benchmark: Since we are building topology_tests.yml and stress_test.yml workflows, these will allow us to aggressively audit the Python code and ensure the matrix calculations don't break under heavy localized stress parameters.
