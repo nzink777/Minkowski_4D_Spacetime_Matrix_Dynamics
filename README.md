@@ -1,5 +1,11 @@
 https://github.com/nzink777/Minkowski_4D_Spacetime_Matrix_Dynamics
 # Minkowski_4D_Spacetime_Matrix_Dynamics
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22073156.svg)](https://doi.org/10.5281/zenodo.22073156)
+
+FDTD (Finite-Difference Time-Domain) topological matrix algebra framework simulating Minkowski 4D spacetime voxel collection swaps. Maps localized boundary conditions and dynamic coupling functions using JWST spectral data to model topological stress across varying information densities.
+
+# Minkowski_4D_Spacetime_Matrix_Dynamics
 DOI 10.5281/zenodo.22073156
 FDTD (Finite-Difference Time-Domain) topological matrix algebra framework simulating Minkowski 4D spacetime voxel collection swaps. Maps localized boundary conditions and dynamic coupling functions using JWST spectral data to model topological stress across varying information densities.
 
